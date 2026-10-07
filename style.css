@@ -1,0 +1,1238 @@
+body{
+    background-color: #f7f3ed;
+    color: #1f1f1f;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+.hero{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.date{
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin-bottom: 25px;
+}
+h1{
+    font-size: 70px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 0;
+}
+subtitle{
+    max-width: 600px;
+    font-size: 19px;
+    line-height: 1.7;
+    margin: 25px 0;
+}
+button{
+    background-color: #1f1f1f;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor:pointer
+}
+.start-button {
+    display: inline-block;
+    background-color: #1f1f1f;
+    color: white;
+    text-decoration: none;
+    border: none ;
+    padding: 14px 28px ;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease,opacity 0.3s ease;
+}
+.start-button:hover {
+    transform : translateY(-3px);
+    opacity: 0.9;
+
+}
+.story-section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+    box-sizing: border-box;
+}
+.section-label{
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.story-section h2{
+    font-size: 45px;
+    font-weight: normal;
+    margin: 0 0 25px;
+}
+.story-section p:last-child{
+    max-width: 550px;
+    font-size: 18px;
+    line-height: 1.8 ;
+    margin: 0;
+}
+.story-section{
+    min-height: 100vh;
+    padding: 120px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    direction: rtl;
+}
+.section-label{
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    opacity: 0.6;
+}
+.story-section{
+    font-size: 45px;
+    font-weight: normal;
+    margin: 35px 0 20px;
+    line-height: 1.5;
+}
+.story-text{
+    max-width: 600px;
+    font-size: 19px;
+    line-height: 2;
+    margin: 0 0 45px;
+}
+.story-text,
+.story-section h2 {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 1s ease;
+}
+.story-text.show,
+.story-section h2 .show{
+    opacity: 1;
+    transform: translateY(0);
+}
+navbar {
+    width: 100%;
+    padding: 22px 35px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+}
+
+.logo {
+    color: #1f1f1f;
+    text-decoration: none;
+    font-size: 15px;
+}
+nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: #1f1f1f;
+    text-decoration: none;
+    font-size: 14px;
+    transition: opacity 0.3s ease;
+}
+
+.nav-links a:hover {
+    opacity: 0.5;
+}
+
+
+.next-button {
+    display: inline-block;
+    margin-top: 50px;
+
+    background-color: #1f1f1f;
+    color: white;
+
+    text-decoration: none;
+
+    padding: 15px 30px;
+    border-radius: 30px;
+
+    font-size: 15px;
+
+    transition: all 0.3s ease;
+}
+
+.next-button:hover {
+    background-color: #8f6f73;
+    transform: translateY(-3px);
+
+}
+.story-page .story-text{
+    opacity: 1;
+    transform: translateY(0);
+}
+.story-page{
+      max-width: 750px;
+    margin: 0 auto;
+    padding: 100px 25px;
+    text-align: center;
+    direction: rtl;
+}
+
+.story-page h1,
+.story-page h2 {
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+.story-page h1 {
+    font-size: 50px;
+    margin: 20px 0 40px;
+}
+
+.story-page h2 {
+    font-size: 36px;
+    margin: 70px 0 25px;
+}
+
+.story-page .story-text {
+    font-size: 19px;
+    line-height: 2.1;
+    margin-bottom: 35px;
+}
+.navbar {
+    width: 100%;
+    padding: 25px 40px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+
+    background-color: #eee7dc;
+    border-bottom: 1px solid #ddd2c3;
+}
+
+.logo {
+    color: #1f1f1f;
+    text-decoration: none;
+
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.nav-links a {
+    color: #1f1f1f;
+    text-decoration: none;
+
+    font-size: 16px;
+
+    padding: 8px 12px;
+    border-radius: 20px;
+
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #d8c4c0;
+    transform: translateY(-2px);
+}
+/* YOU PAGE */
+
+.you-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 25px 120px;
+
+    text-align: center;
+    direction: rtl;
+}
+
+.you-page .section-label {
+    font-size: 14px;
+    letter-spacing: 2px;
+    opacity: 0.55;
+    margin-bottom: 25px;
+}
+
+.you-page h1 {
+    font-size: 52px;
+    font-weight: normal;
+    line-height: 1.4;
+    margin: 0 0 35px;
+}
+
+.you-intro {
+    max-width: 650px;
+    margin: 0 auto 90px;
+
+    font-size: 20px;
+    line-height: 2.1;
+}
+
+.you-item {
+    max-width: 650px;
+    margin: 0 auto 85px;
+
+    padding: 35px 30px;
+
+    background-color: #eee7dc;
+    border-radius: 25px;
+
+    transition: transform 0.3s ease;
+}
+
+.you-item:hover {
+    transform: translateY(-5px);
+}
+
+.you-item h2 {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0 0 20px;
+}
+
+.you-item p {
+    font-size: 18px;
+    line-height: 2.1;
+    margin: 0;
+}
+
+.you-ending {
+    max-width: 650px;
+    margin: 100px auto 0;
+
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 1.8;
+}
+/* DISTANCE PAGE */
+
+.distance-page {
+max-width: 850px;
+margin: 0 auto;
+padding: 100px 25px 120px;
+
+text-align: center;
+direction: rtl;
+}
+
+.distance-page h1 {
+font-size: 50px;
+font-weight: normal;
+line-height: 1.5;
+margin: 25px 0 35px;
+}
+
+.distance-intro {
+max-width: 650px;
+margin: 0 auto 70px;
+
+font-size: 19px;
+line-height: 2.2;
+}
+
+.distance-text {
+max-width: 650px;
+margin: 0 auto 80px;
+
+padding: 35px;
+
+background-color: #eee7dc;
+border-radius: 25px;
+}
+
+.distance-text p {
+font-size: 18px;
+line-height: 2.1;
+margin: 0;
+}
+
+.distance-page h2 {
+font-size: 32px;
+font-weight: normal;
+margin-bottom: 15px;
+}
+
+.distance-small {
+font-size: 18px;
+margin-bottom: 50px;
+}
+
+.calls-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+.call-card {
+    background-color: #eee7dc;
+    border-radius: 20px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.call-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;}
+
+.distance-ending{
+max-width: 600px;
+margin: 100px auto 0;
+
+font-size: 28px;
+line-height: 1.8;
+}
+
+
+.secret-page {
+max-width: 800px;
+margin: 0 auto;
+padding: 100px 25px 120px;
+text-align: center;
+}
+
+.secret-page h1 {
+font-size: 50px;
+font-weight: normal;
+line-height: 1.5;
+margin: 25px 0 35px;
+}
+
+.secret-intro {
+max-width: 600px;
+margin: 0 auto 60px;
+font-size: 19px;
+line-height: 2.1;
+}
+
+.secret-lock {
+max-width: 450px;
+margin: 0 auto;
+padding: 40px 30px;
+background-color: #eee7dc;
+border-radius: 25px;
+}
+
+.secret-lock p {
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+.secret-lock input {
+width: 100%;
+box-sizing: border-box;
+padding: 14px 18px;
+border: 1px solid #d5ccc0;
+border-radius: 25px;
+background-color: #f7f3ed;
+text-align: center;
+font-size: 18px;
+outline: none;
+margin-bottom: 15px;
+}
+
+.secret-lock button {
+background-color: #1f1f1f;
+color: white;
+border: none;
+padding: 14px 28px;
+border-radius: 30px;
+font-size: 15px;
+cursor: pointer;
+}
+
+#secret-message {
+margin-top: 20px;
+min-height: 25px;
+}
+
+.secret-content {
+display: none;
+max-width: 700px;
+margin: 80px auto 0;
+}
+
+.secret-content.show-secret {
+display: block;
+}
+
+.secret-content h2 {
+font-size: 38px;
+font-weight: normal;
+margin-bottom: 25px;
+}
+
+.secret-content p {
+font-size: 19px;
+line-height: 2;
+margin-bottom: 40px;
+}
+
+.secret-content video {
+width: 100%;
+max-width: 650px;
+border-radius: 20px;}
+/* =========================
+   SECRET PAGE
+========================= */
+
+.secret-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 100px 25px 120px;
+    text-align: center;
+    direction: rtl;
+}
+
+
+.secret-page h1 {
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 25px 0 35px;
+}
+
+
+.secret-intro {
+    max-width: 600px;
+    margin: 0 auto 60px;
+    font-size: 19px;
+    line-height: 2.1;
+}
+
+
+/* =========================
+   SECRET LOCK
+========================= */
+
+.secret-lock {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 40px 30px;
+    background-color: #eee7dc;
+    border-radius: 25px;
+}
+
+
+.secret-lock p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+
+.secret-lock input {
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 14px 18px;
+
+    border: 1px solid #d5ccc0;
+    border-radius: 25px;
+
+    background-color: #f7f3ed;
+
+    text-align: center;
+    font-size: 18px;
+
+    outline: none;
+
+    margin-bottom: 15px;
+}
+
+
+.secret-lock button {
+    background-color: #1f1f1f;
+    color: white;
+
+    border: none;
+
+    padding: 14px 28px;
+
+    border-radius: 30px;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+
+.secret-lock button:hover {
+    background-color: #8f6f73;
+    transform: translateY(-2px);
+}
+
+
+#secret-message {
+    margin-top: 20px;
+    min-height: 25px;
+}
+
+
+/* =========================
+   VIDEO
+========================= */
+
+.secret-content {
+    display: none;
+
+    max-width: 700px;
+
+    margin: 80px auto 0;
+}
+
+
+.secret-content.show-secret {
+    display: block;
+
+    animation: fadeIn 1.5s ease;
+}
+
+
+.secret-content h2 {
+    font-size: 38px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+
+.secret-content p {
+    font-size: 19px;
+    line-height: 2;
+    margin-bottom: 40px;
+}
+
+
+.secret-content video {
+    width: 100%;
+    max-width: 650px;
+
+    border-radius: 20px;
+
+    display: block;
+
+    margin: 0 auto;
+}
+
+
+/* =========================
+   FINAL MESSAGE
+========================= */
+
+.final-message {
+    display: none;
+
+    max-width: 650px;
+
+    margin: 150px auto 0;
+
+    padding: 100px 20px;
+
+    text-align: center;
+
+    line-height: 2.2;
+}
+
+
+.final-message.show-final {
+    display: block;
+
+    animation: finalFade 3s ease;
+}
+
+
+.final-main {
+    font-size: 42px;
+
+    line-height: 1.6;
+
+    margin-bottom: 70px;
+}
+
+
+.final-message > p:not(.final-main):not(.final-love):not(.birthday-message):not(.last-line):not(.date-ending) {
+    font-size: 19px;
+
+    margin-bottom: 55px;
+}
+
+
+.final-love {
+    font-size: 25px;
+
+    line-height: 2;
+
+    margin: 80px 0;
+}
+
+
+.birthday-message {
+    font-size: 27px;
+
+    line-height: 2;
+
+    margin: 80px 0;
+}
+
+
+.birthday-message span {
+    font-size: 22px;
+}
+
+
+.last-line {
+    font-size: 28px;
+
+    margin: 80px 0;
+}
+
+
+.date-ending {
+    font-size: 25px;
+
+    line-height: 2;
+
+    margin-top: 120px;
+
+    opacity: 0.75;
+}
+
+
+.restart-button {
+    display: inline-block;
+
+    margin-top: 70px;
+
+    padding: 14px 28px;
+
+    border-radius: 30px;
+
+    background-color: #1f1f1f;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    transition: all 0.3s ease;
+}
+
+
+.restart-button:hover {
+    background-color: #8f6f73;
+
+    transform: translateY(-3px);}
+
+
+@keyframes fadeIn {
+
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+
+@keyframes finalFade {
+
+    from {
+        opacity: 0;
+        transform: translateY(35px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);}}
+        /* =========================
+SONGS PAGE
+========================= */
+
+.songs-page {
+max-width: 850px;
+margin: 0 auto;
+padding: 100px 25px 120px;
+text-align: center;
+direction: rtl;
+}
+
+
+.songs-page h1 {
+font-size: 50px;
+font-weight: normal;
+line-height: 1.5;
+margin: 25px 0 35px;
+}
+
+
+.songs-intro {
+max-width: 650px;
+margin: 0 auto 80px;
+font-size: 19px;
+line-height: 2.1;
+}
+
+
+.song-list {
+display: flex;
+flex-direction: column;
+gap: 30px;
+max-width: 650px;
+margin: 0 auto;
+}
+
+
+.song-card {
+padding: 35px 30px;
+background-color: #eee7dc;
+border-radius: 25px;
+}
+
+
+.song-card h2 {
+font-size: 28px;
+font-weight: normal;
+margin: 0 0 15px;
+}
+
+
+.song-card p {
+font-size: 17px;
+line-height: 1.9;
+margin-bottom: 25px;
+}
+
+
+.youtube-player {
+width: 100%;
+height: 100px;
+border-radius: 15px;
+display: block;
+}
+
+
+.songs-ending {
+max-width: 600px;
+margin: 100px auto 0;
+font-size: 24px;
+line-height: 2;} 
+.memories-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 100px 25px 120px;
+    text-align: center;
+    direction: rtl;
+}
+
+.memories-page h1 {
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 25px 0 45px;
+}
+
+.memories-intro {
+    max-width: 650px;
+    margin: 0 auto 80px;
+    font-size: 19px;
+    line-height: 2.1;
+}
+
+.memories-intro p {
+    margin-bottom: 25px;
+}
+
+.memories-gallery {
+    columns: 3 250px;
+    column-gap: 20px;
+}
+
+.memory-card {
+    break-inside: avoid;
+    margin-bottom: 20px;
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: #eee7dc;
+}
+
+.memory-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.memory-card:hover img {
+    transform: scale(1.03);
+}
+
+.memories-ending {
+    max-width: 650px;
+    margin: 110px auto 0;
+    font-size: 19px;
+    line-height: 2.2;
+}
+
+.memories-ending p {
+    margin-bottom: 25px;
+}
+
+.memories-ending .ending-line {
+    font-size: 30px;
+    margin-top: 50px;
+}
+.memory-card {
+    break-inside: avoid;
+    margin-bottom: 20px;
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: #eee7dc;
+
+    opacity: 0;
+    transform: translateY(40px);
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+}
+
+.memory-card.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.memory-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+    transition: transform 0.5s ease;
+}
+
+.memory-card:hover img {
+    transform: scale(1.04);
+}
+/* Memories - make sure photos are visible */
+
+.memory-card {
+    opacity: 1 !important;
+    transform: none !important;
+    visibility: visible !important;
+    display: block !important;
+}
+
+.memory-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+/* Beautiful Memories Gallery */
+
+.memories-gallery {
+    columns: 3 250px;
+    column-gap: 22px;
+    max-width: 1000px;
+    margin: 70px auto 0;
+}
+
+.memory-card {
+    break-inside: avoid;
+    margin-bottom: 22px;
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: #eee7dc;
+
+    opacity: 1 !important;
+    visibility: visible !important;
+
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.memory-card:nth-child(3n + 1) {
+    transform: rotate(-1deg);
+}
+
+.memory-card:nth-child(3n + 2) {
+    transform: rotate(1deg);
+}
+
+.memory-card:nth-child(3n) {
+    transform: rotate(-0.5deg);
+}
+
+.memory-card:hover {
+    transform: scale(1.03) rotate(0deg);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
+    z-index: 2;
+}
+
+.memory-card img {
+    width: 100%;
+    height: auto;
+    display: block;}
+    /* Memories - soft moving photos */
+
+.memories-gallery {
+    max-width: 900px;
+    margin: 70px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    align-items: center;
+}
+
+.memory-card {
+    background-color: #fffdf9;
+    padding: 8px;
+    border-radius: 8px;
+
+    opacity: 1 !important;
+    visibility: visible !important;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+
+    cursor: pointer;
+
+    animation: floatingMemory 4s ease-in-out infinite;
+
+    transition:
+        transform 0.5s ease,
+        box-shadow 0.5s ease;
+}
+
+/* نخلي كل صورة توقيتها مختلف */
+.memory-card:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+.memory-card:nth-child(3) {
+    animation-delay: 1s;
+}
+
+.memory-card:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+.memory-card:nth-child(5) {
+    animation-delay: 2s;
+}
+
+.memory-card:nth-child(6) {
+    animation-delay: 2.5s;
+}
+
+.memory-card:nth-child(7) {
+    animation-delay: 1s;
+}
+
+.memory-card:nth-child(8) {
+    animation-delay: 0.3s;
+}
+
+.memory-card:nth-child(9) {
+    animation-delay: 1.8s;
+}
+
+.memory-card:nth-child(10) {
+    animation-delay: 2.3s;
+}
+
+.memory-card:nth-child(11) {
+    animation-delay: 0.8s;
+}
+
+.memory-card:nth-child(12) {
+    animation-delay: 1.3s;
+}
+
+.memory-card:nth-child(13) {
+    animation-delay: 2.8s;
+}
+
+.memory-card:nth-child(14) {
+    animation-delay: 0.6s;
+}
+
+.memory-card:nth-child(15) {
+    animation-delay: 1.6s;
+}
+
+.memory-card:nth-child(16) {
+    animation-delay: 2.1s;
+}
+
+.memory-card:nth-child(17) {
+    animation-delay: 0.4s;
+}
+
+.memory-card:nth-child(18) {
+    animation-delay: 2.6s;
+}
+
+
+.memory-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+
+/* حركة خفيفة جدًا */
+
+@keyframes floatingMemory {
+
+    0% {
+        transform: translateY(0) rotate(0deg) scale(0.95);
+    }
+
+    50% {
+        transform: translateY(-8px) rotate(1deg) scale(1);
+    }
+
+    100% {
+        transform: translateY(0) rotate(0deg) scale(0.95);
+    }
+
+}
+
+
+/* لما تمرري عليها */
+
+.memory-card:hover {
+    animation-play-state: paused;
+
+    transform: scale(1.12) rotate(0deg) !important;
+
+    box-shadow:
+        0 18px 40px rgba(0, 0, 0, 0.16);
+z-index: 10;
+}
+@media(max-width: 700px) {
+
+    .navbar {
+        padding: 20px 15px;
+        gap: 12px;
+    }
+
+    .logo {
+        font-size: 21px;
+    }
+
+    .nav-links {
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+        padding: 7px 8px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    .story-page,
+    .you-page,
+    .distance-page,
+    .songs-page,
+    .secret-page,
+    .memories-page {
+        padding: 70px 18px 90px;
+    }
+
+    .story-page h1,
+    .distance-page h1,
+    .songs-page h1,
+    .secret-page h1,
+    .memories-page h1 {
+        font-size: 38px;
+    }
+
+    .you-page h1 {
+        font-size: 40px;
+    }
+
+    .story-page h2 {
+        font-size: 30px;
+    }
+
+    .story-text,
+    .you-intro,
+    .distance-intro,
+    .songs-intro,
+    .secret-intro,
+    .memories-intro {
+        font-size: 17px;
+    }
+
+    .memories-gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .memory-card:hover {
+        transform: scale(1.05) !important;
+    }
+
+    .calls-gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .call-card img {
+        height: auto;
+    }
+
+    .song-card {
+        padding: 25px 18px;
+    }
+
+    .youtube-player {
+        height: 100px;
+    }
+
+    .final-main {
+        font-size: 32px;}
+    }
+
+
+
+
+
+
+
+
+
